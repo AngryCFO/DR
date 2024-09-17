@@ -29,7 +29,14 @@
 - На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
 #### Ответ:
-
+```
+#!/bin/bash
+if [[ $(netstat -tuln | grep LISTEN | grep :80) ]] && [[ -f /var/www/html/index.nginx-debian.html ]]; then
+        exit 0
+else
+        sudo systemctl stop keepalived
+fi
+```
 
 
 ---
