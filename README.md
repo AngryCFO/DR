@@ -17,7 +17,7 @@
 
 ![image](https://github.com/user-attachments/assets/6ea5b051-5a8f-48b6-97d3-2dc16b02f99b)
 
-
+### Ссылка на файл: [hsrp_advanced_DZ1.pkt](https://github.com/AngryCFO/DR/blob/4bad1d6091f8919c14a1cf00f31030652774e194/hsrp_advanced_DZ1.pkt)
 ---
 
 ### Задание 2 
